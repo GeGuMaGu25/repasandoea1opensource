@@ -1,12 +1,18 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
+  imports: [TranslatePipe],
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
+
 export class App {
-  protected readonly title = signal('repasandoea1');
+  private readonly translate = inject(TranslateService);
+
+  constructor() {
+    this.translate.addLangs(['en', 'es']);
+    this.translate.use('en');
+  }
 }
