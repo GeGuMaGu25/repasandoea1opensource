@@ -1,0 +1,17 @@
+{
+  "kitchen-stations": [
+    { "id": 1, "name": "Grill & Roast Station", "mealCategory": "Beef", "maxServings": 120 },
+    { "id": 2, "name": "Poultry Station", "mealCategory": "Chicken", "maxServings": 150 },
+    { "id": 3, "name": "Pâtisserie Atelier", "mealCategory": "Dessert", "maxServings": 200 },
+    { "id": 4, "name": "Pasta Lab", "mealCategory": "Pasta", "maxServings": 100 },
+    { "id": 5, "name": "Fish & Seafood Station", "mealCategory": "Seafood", "maxServings": 90 },
+    { "id": 6, "name": "Garden Kitchen", "mealCategory": "Vegetarian", "maxServings": 110 }
+  ],
+  "meal-prep-orders": [
+    { "id": 1, "kitchenStationId": 1, "mealCategory": "Beef", "mealId": "53133", "mealName": "Asado", "mealThumbnailUrl": "https://www.themealdb.com/images/media/meals/kgfh3q1763075438.jpg", "plannedServings": 40, "scheduledAt": "2026-10-20T15:00:00.000Z" },
+    { "id": 2, "kitchenStationId": 1, "mealCategory": "Beef", "mealId": "53281", "mealName": "Algerian Kefta (Meatballs)", "mealThumbnailUrl": "https://www.themealdb.com/images/media/meals/8rfd4q1764112993.jpg", "plannedServings": 25, "scheduledAt": "2026-10-21T15:00:00.000Z" },
+    { "id": 3, "kitchenStationId": 3, "mealCategory": "Dessert", "mealId": "53138", "mealName": "Alfajores", "mealThumbnailUrl": "https://www.themealdb.com/images/media/meals/a4kgf21763075288.jpg", "plannedServings": 60, "scheduledAt": "2026-10-20T13:00:00.000Z" },
+    { "id": 4, "kitchenStationId": 5, "mealCategory": "Seafood", "mealId": "53495", "mealName": "Amok Trey – Cambodian Fish Curry", "mealThumbnailUrl": "https://www.themealdb.com/images/media/meals/diuub11782687570.jpg", "plannedServings": 35, "scheduledAt": "2026-10-22T17:00:00.000Z" },
+    { "id": 5, "kitchenStationId": 3, "mealCategory": "Dessert", "mealId": "53111", "mealName": "Anzac biscuits", "mealThumbnailUrl": "https://www.themealdb.com/images/media/meals/q47rkb1762324620.jpg", "plannedServings": 30, "scheduledAt": "2026-10-23T14:00:00.000Z" }
+  ]
+}
