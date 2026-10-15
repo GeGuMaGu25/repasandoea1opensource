@@ -1,4 +1,3 @@
-
 {
   "kitchen-stations": [
     { "id": 1, "name": "Grill & Roast Station", "mealCategory": "Beef", "maxServings": 120 },
